@@ -8,6 +8,7 @@ export function loadLang() {
   const langs = Object.keys(context);
   for (const key of langs) {
     if (key === './index.ts') return;
+    // @ts-ignore
     const lang = context[key].lang;
     const name = key.replace(/(\.\/lang\/|\.ts)/g, '');
 
