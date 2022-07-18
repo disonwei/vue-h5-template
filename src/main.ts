@@ -7,6 +7,7 @@ import store from '/@/store';
 import './assets/font/iconfont.css';
 import './assets/app.css';
 import 'amfe-flexible';
+import './common/http/http-interceptors';
 
 const app = createApp(App);
 

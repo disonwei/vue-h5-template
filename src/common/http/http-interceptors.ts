@@ -8,5 +8,4 @@ axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded
 
 axios.interceptors.request.use(httpHandler.requestHander, httpHandler.requestErrorHandler);
 axios.interceptors.response.use(httpHandler.responseHandler, httpHandler.responseErrorHandler);
-
 export default axios;
